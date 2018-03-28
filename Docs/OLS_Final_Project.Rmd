@@ -1,0 +1,30 @@
+---
+title: "OLS Final Project"
+author: "Kristin Dobbin"
+date: "3/16/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+library(tidyverse)
+```
+
+# **DAC Participation in SGMA** 
+
+```{r}
+# Load data
+list.files()
+DACP <- read_csv("../Data/DACP_GSApostings_3.16.18.csv")
+IRWM <- read_csv("../Outputs/DACP_IRWM.csv")
+DEM <- read_csv("../Outputs/DEM_by_DACO_viaBG_all.csv")
+
+# Create master dataframe
+Data <- left_join(DACP, DEM, by = c("DACP_IDNumber" = "DACP_Place_IDNumber"))
+
+# Add participation dependent variable
+
+
+```
+

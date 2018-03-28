@@ -1,0 +1,897 @@
+﻿DACPlace_ID_Number,DACPlace_Name,IRWMName,DAC_Pilot,TLB
+602553,Arden-Arcade CDP,(1) American River Basin,N,N
+624498,Florin CDP,(1) American River Basin,N,N
+624722,Foothill Farms CDP,(1) American River Basin,N,N
+625506,Franklin CDP,(1) American River Basin,N,N
+625590,Freeport CDP,(1) American River Basin,N,N
+627130,Fruitridge Pocket CDP,(1) American River Basin,N,N
+641142,Lemon Hill CDP,(1) American River Basin,N,N
+644760,McClellan Park CDP,(1) American River Basin,N,N
+651924,North Highlands CDP,(1) American River Basin,N,N
+655800,Parkway CDP,(1) American River Basin,N,N
+671414,Sheridan CDP,(1) American River Basin,N,N
+678568,Thornton CDP,(1) American River Basin,N,N
+651000,Newcastle CDP,(1) American River Basin,N,N
+651637,North Auburn CDP,(1) American River Basin,N,N
+678568,Thornton CDP,(1) American River Basin,N,N
+632548,Hawthorne city,(10) Greater Los Angeles County,Y,N
+636546,Inglewood city,(10) Greater Los Angeles County,Y,N
+682422,Vernon city,(10) Greater Los Angeles County,Y,N
+640886,Lawndale city,(10) Greater Los Angeles County,Y,N
+658072,Pomona city,(10) Greater Los Angeles County,Y,N
+672996,South El Monte city,(10) Greater Los Angeles County,Y,N
+662896,Rosemead city,(10) Greater Los Angeles County,Y,N
+648816,Montebello city,(10) Greater Los Angeles County,Y,N
+628168,Gardena city,(10) Greater Los Angeles County,Y,N
+615044,Compton city,(10) Greater Los Angeles County,Y,N
+636056,Huntington Park city,(10) Greater Los Angeles County,Y,N
+622230,El Monte city,(10) Greater Los Angeles County,Y,N
+620802,East Los Angeles CDP,(10) Greater Los Angeles County,Y,N
+624477,Florence-Graham CDP,(10) Greater Los Angeles County,Y,N
+641180,Lennox CDP,(10) Greater Los Angeles County,Y,N
+684116,West Athens CDP,(10) Greater Los Angeles County,Y,N
+684592,Westmont CDP,(10) Greater Los Angeles County,Y,N
+684780,West Rancho Dominguez CDP,(10) Greater Los Angeles County,Y,N
+685614,Willowbrook CDP,(10) Greater Los Angeles County,Y,N
+682422,Vernon city,(10) Greater Los Angeles County,Y,N
+644574,Lynwood city,(10) Greater Los Angeles County,Y,N
+655618,Paramount city,(10) Greater Los Angeles County,Y,N
+662896,Rosemead city,(10) Greater Los Angeles County,Y,N
+648816,Montebello city,(10) Greater Los Angeles County,Y,N
+615044,Compton city,(10) Greater Los Angeles County,Y,N
+604870,Bell city,(10) Greater Los Angeles County,Y,N
+636056,Huntington Park city,(10) Greater Los Angeles County,Y,N
+673080,South Gate city,(10) Greater Los Angeles County,Y,N
+604996,Bell Gardens city,(10) Greater Los Angeles County,Y,N
+614974,Commerce city,(10) Greater Los Angeles County,Y,N
+617498,Cudahy city,(10) Greater Los Angeles County,Y,N
+632506,Hawaiian Gardens city,(10) Greater Los Angeles County,Y,N
+632506,Hawaiian Gardens city,(10) Greater Los Angeles County,Y,N
+646492,Maywood city,(10) Greater Los Angeles County,Y,N
+620802,East Los Angeles CDP,(10) Greater Los Angeles County,Y,N
+621034,East Rancho Dominguez CDP,(10) Greater Los Angeles County,Y,N
+624477,Florence-Graham CDP,(10) Greater Los Angeles County,Y,N
+683402,Walnut Park CDP,(10) Greater Los Angeles County,Y,N
+684780,West Rancho Dominguez CDP,(10) Greater Los Angeles County,Y,N
+685614,Willowbrook CDP,(10) Greater Los Angeles County,Y,N
+632506,Hawaiian Gardens city,(10) Greater Los Angeles County,Y,N
+672520,Soledad city,(11) Greater Monterey County,N,N
+638520,King City city,(11) Greater Monterey County,N,N
+607578,Boronda CDP,(11) Greater Monterey County,N,N
+649488,Moss Landing CDP,(11) Greater Monterey County,N,N
+657070,Pine Canyon CDP,(11) Greater Monterey County,N,N
+664476,San Ardo CDP,(11) Greater Monterey County,N,N
+668140,San Lucas CDP,(11) Greater Monterey County,N,N
+609878,Calipatria city,(12) Imperial,N,N
+608058,Brawley city,(12) Imperial,N,N
+609710,Calexico city,(12) Imperial,N,N
+621782,El Centro city,(12) Imperial,N,N
+634246,Holtville city,(12) Imperial,N,N
+684606,Westmorland city,(12) Imperial,N,N
+633084,Heber CDP,(12) Imperial,N,N
+651392,Niland CDP,(12) Imperial,N,N
+653378,Ocotillo CDP,(12) Imperial,N,N
+670798,Seeley CDP,(12) Imperial,N,N
+606798,Bishop city,(13) Inyo-Mono,Y,N
+603026,Aspen Springs CDP,(13) Inyo-Mono,Y,N
+605346,Benton CDP,(13) Inyo-Mono,Y,N
+608240,Bridgeport CDP,(13) Inyo-Mono,Y,N
+611600,Cartago CDP,(13) Inyo-Mono,Y,N
+613157,China Lake Acres CDP,(13) Inyo-Mono,Y,N
+614484,Coleville CDP,(13) Inyo-Mono,Y,N
+618030,Darwin CDP,(13) Inyo-Mono,Y,N
+619406,Dixon Lane-Meadow Creek CDP,(13) Inyo-Mono,Y,N
+628021,Furnace Creek CDP,(13) Inyo-Mono,Y,N
+634405,Homewood Canyon CDP,(13) Inyo-Mono,Y,N
+637918,Keeler CDP,(13) Inyo-Mono,Y,N
+640998,Lee Vining CDP,(13) Inyo-Mono,Y,N
+642580,Lone Pine CDP,(13) Inyo-Mono,Y,N
+648602,Mono City CDP,(13) Inyo-Mono,Y,N
+653490,Olancha CDP,(13) Inyo-Mono,Y,N
+655528,Paradise CDP,(13) Inyo-Mono,Y,N
+656294,Pearsonville CDP,(13) Inyo-Mono,Y,N
+663148,Round Valley CDP,(13) Inyo-Mono,Y,N
+670728,Searles Valley CDP,(13) Inyo-Mono,Y,N
+671680,Shoshone CDP,(13) Inyo-Mono,Y,N
+678050,Tecopa CDP,(13) Inyo-Mono,Y,N
+679030,Topaz CDP,(13) Inyo-Mono,Y,N
+680515,Trona CDP,(13) Inyo-Mono,Y,N
+681925,Valley Wells CDP,(13) Inyo-Mono,Y,N
+658240,Porterville city,(14) Kaweah River Basin,N,Y
+680644,Tulare city,(14) Kaweah River Basin,N,Y
+686300,Woodlake city,(14) Kaweah River Basin,N,Y
+623126,Exeter city,(14) Kaweah River Basin,N,Y
+623616,Farmersville city,(14) Kaweah River Basin,N,Y
+641712,Lindsay city,(14) Kaweah River Basin,N,Y
+621210,East Tulare Villa CDP,(14) Kaweah River Basin,N,Y
+622360,El Rancho CDP,(14) Kaweah River Basin,N,Y
+630476,Goshen CDP,(14) Kaweah River Basin,N,Y
+634281,Home Garden CDP,(14) Kaweah River Basin,N,Y
+636910,Ivanhoe CDP,(14) Kaweah River Basin,N,Y
+641110,Lemon Cove CDP,(14) Kaweah River Basin,N,Y
+641656,Lindcove CDP,(14) Kaweah River Basin,N,Y
+641740,Linnell Camp CDP,(14) Kaweah River Basin,N,Y
+646223,Matheny CDP,(14) Kaweah River Basin,N,Y
+656120,Patterson Tract CDP,(14) Kaweah River Basin,N,Y
+657568,Plainview CDP,(14) Kaweah River Basin,N,Y
+671078,Seville CDP,(14) Kaweah River Basin,N,Y
+675280,Strathmore CDP,(14) Kaweah River Basin,N,Y
+678949,Tooleville CDP,(14) Kaweah River Basin,N,Y
+683724,Waukena CDP,(14) Kaweah River Basin,N,Y
+684345,West Goshen CDP,(14) Kaweah River Basin,N,Y
+658240,Porterville city,(14) Kaweah River Basin,N,Y
+686300,Woodlake city,(14) Kaweah River Basin,N,Y
+671078,Seville CDP,(14) Kaweah River Basin,N,Y
+602924,Arvin city,(15) Kern County,N,Y
+678092,Tehachapi city,(15) Kern County,N,Y
+645736,Maricopa city,(15) Kern County,N,Y
+607274,Bodfish CDP,(15) Kern County,N,Y
+609332,Buttonwillow CDP,(15) Kern County,N,Y
+618926,Derby Acres CDP,(15) Kern County,N,Y
+620284,Dustin Acres CDP,(15) Kern County,N,Y
+621558,Edmundson Acres CDP,(15) Kern County,N,Y
+624764,Ford City CDP,(15) Kern County,N,Y
+625534,Frazier Park CDP,(15) Kern County,N,Y
+627190,Fuller Acres CDP,(15) Kern County,N,Y
+639570,Lake Isabella CDP,(15) Kern County,N,Y
+639696,Lake of the Woods CDP,(15) Kern County,N,Y
+640088,Lamont CDP,(15) Kern County,N,Y
+644280,Lost Hills CDP,(15) Kern County,N,Y
+644924,McKittrick CDP,(15) Kern County,N,Y
+647164,Mettler CDP,(15) Kern County,N,Y
+649600,Mountain Mesa CDP,(15) Kern County,N,Y
+653448,Oildale CDP,(15) Kern County,N,Y
+653910,Onyx CDP,(15) Kern County,N,Y
+657240,Pine Mountain Club CDP,(15) Kern County,N,Y
+673388,South Taft CDP,(15) Kern County,N,Y
+673815,Squirrel Mountain Valley CDP,(15) Kern County,N,Y
+680784,Tupman CDP,(15) Kern County,N,Y
+681722,Valley Acres CDP,(15) Kern County,N,Y
+683863,Weedpatch CDP,(15) Kern County,N,Y
+683948,Weldon CDP,(15) Kern County,N,Y
+686174,Wofford Heights CDP,(15) Kern County,N,Y
+618394,Delano city,(15) Kern County,N,Y
+618394,Delano city,(15) Kern County,N,Y
+644826,McFarland city,(15) Kern County,N,Y
+671106,Shafter city,(15) Kern County,N,Y
+683542,Wasco city,(15) Kern County,N,Y
+609332,Buttonwillow CDP,(15) Kern County,N,Y
+612860,Cherokee Strip CDP,(15) Kern County,N,Y
+639696,Lake of the Woods CDP,(15) Kern County,N,Y
+644280,Lost Hills CDP,(15) Kern County,N,Y
+647192,Mexican Colony CDP,(15) Kern County,N,Y
+657240,Pine Mountain Club CDP,(15) Kern County,N,Y
+672338,Smith Corner CDP,(15) Kern County,N,Y
+618394,Delano city,(15) Kern County,N,Y
+645022,Madera city,(16) Madera,N,N
+613294,Chowchilla city,(16) Madera,N,N
+627000,Fresno city,(16) Madera,N,N
+604198,Bass Lake CDP,(16) Madera,N,N
+614288,Coarsegold CDP,(16) Madera,N,N
+623210,Fairmead CDP,(16) Madera,N,N
+640872,La Vina CDP,(16) Madera,N,N
+652764,Oakhurst CDP,(16) Madera,N,N
+655751,Parksdale CDP,(16) Madera,N,N
+655842,Parkwood CDP,(16) Madera,N,N
+627000,Fresno city,(16) Madera,N,N
+624134,Firebaugh city,(16) Madera,N,N
+603162,Atwater city,(17) Merced,N,N
+646898,Merced city,(17) Merced,N,N
+604632,Bear Creek CDP,(17) Merced,N,N
+622286,El Nido CDP,(17) Merced,N,N
+625488,Franklin CDP,(17) Merced,N,N
+641040,Le Grand CDP,(17) Merced,N,N
+657582,Planada CDP,(17) Merced,N,N
+672408,Snelling CDP,(17) Merced,N,N
+680882,Tuttle CDP,(17) Merced,N,N
+681312,University of California-Merced CDP,(17) Merced,N,N
+686076,Winton CDP,(17) Merced,N,N
+603708,Ballico CDP,(17) Merced,N,N
+618464,Delhi CDP,(17) Merced,N,N
+604030,Barstow city,(18) Mojave,N,N
+602364,Apple Valley town,(18) Mojave,N,N
+633434,Hesperia city,(18) Mojave,N,N
+682590,Victorville city,(18) Mojave,N,N
+680994,Twentynine Palms city,(18) Mojave,N,N
+687056,Yucca Valley town,(18) Mojave,N,N
+600296,Adelanto city,(18) Mojave,N,N
+617162,Crestline CDP,(18) Mojave,N,N
+634392,Homestead Valley CDP,(18) Mojave,N,N
+637554,Joshua Tree CDP,(18) Mojave,N,N
+641194,Lenwood CDP,(18) Mojave,N,N
+644420,Lucerne Valley CDP,(18) Mojave,N,N
+649348,Morongo Valley CDP,(18) Mojave,N,N
+657302,Pi5on Hills CDP,(18) Mojave,N,N
+687056,Yucca Valley town,(18) Mojave,N,N
+607568,Boron CDP,(18) Mojave,N,N
+617162,Crestline CDP,(18) Mojave,N,N
+649348,Morongo Valley CDP,(18) Mojave,N,N
+657302,Pi5on Hills CDP,(18) Mojave,N,N
+657302,Pi5on Hills CDP,(18) Mojave,N,N
+677392,Sutter Creek city,(19) Mokelumne/Amador/Calaveras (MAC),N,N
+601514,Amador City city,(19) Mokelumne/Amador/Calaveras (MAC),N,N
+636980,Jackson city,(19) Mokelumne/Amador/Calaveras (MAC),N,N
+657834,Plymouth city,(19) Mokelumne/Amador/Calaveras (MAC),N,N
+603316,Avery CDP,(19) Mokelumne/Amador/Calaveras (MAC),N,N
+623980,Fiddletown CDP,(19) Mokelumne/Amador/Calaveras (MAC),N,N
+646100,Martell CDP,(19) Mokelumne/Amador/Calaveras (MAC),N,N
+649628,Mountain Ranch CDP,(19) Mokelumne/Amador/Calaveras (MAC),N,N
+650034,Murphys CDP,(19) Mokelumne/Amador/Calaveras (MAC),N,N
+657148,Pine Grove CDP,(19) Mokelumne/Amador/Calaveras (MAC),N,N
+657330,Pioneer CDP,(19) Mokelumne/Amador/Calaveras (MAC),N,N
+659220,Rail Road Flat CDP,(19) Mokelumne/Amador/Calaveras (MAC),N,N
+659896,Red Corral CDP,(19) Mokelumne/Amador/Calaveras (MAC),N,N
+664420,San Andreas CDP,(19) Mokelumne/Amador/Calaveras (MAC),N,N
+683094,Volcano CDP,(19) Mokelumne/Amador/Calaveras (MAC),N,N
+684732,West Point CDP,(19) Mokelumne/Amador/Calaveras (MAC),N,N
+657834,Plymouth city,(19) Mokelumne/Amador/Calaveras (MAC),N,N
+603316,Avery CDP,(19) Mokelumne/Amador/Calaveras (MAC),N,N
+623980,Fiddletown CDP,(19) Mokelumne/Amador/Calaveras (MAC),N,N
+638646,Kirkwood CDP,(19) Mokelumne/Amador/Calaveras (MAC),N,N
+650034,Murphys CDP,(19) Mokelumne/Amador/Calaveras (MAC),N,N
+661124,River Pines CDP,(19) Mokelumne/Amador/Calaveras (MAC),N,N
+640130,Lancaster city,(2) Antelope Valley,N,N
+607568,Boron CDP,(2) Antelope Valley,N,N
+639556,Lake Hughes CDP,(2) Antelope Valley,N,N
+639612,Lake Los Angeles CDP,(2) Antelope Valley,N,N
+641880,Littlerock CDP,(2) Antelope Valley,N,N
+648452,Mojave CDP,(2) Antelope Valley,N,N
+651812,North Edwards CDP,(2) Antelope Valley,N,N
+657302,Pi5on Hills CDP,(2) Antelope Valley,N,N
+607568,Boron CDP,(2) Antelope Valley,N,N
+639556,Lake Hughes CDP,(2) Antelope Valley,N,N
+657302,Pi5on Hills CDP,(2) Antelope Valley,N,N
+665112,Sand City city,(20) Monterey Peninsula-Carmel Bay-So Monterey Bay,N,N
+622972,Etna city,(21) North Coast,Y,N
+625128,Fort Jones city,(21) North Coast,Y,N
+648690,Montague city,(21) North Coast,Y,N
+683850,Weed city,(21) North Coast,Y,N
+680686,Tulelake city,(21) North Coast,Y,N
+657876,Point Arena city,(21) North Coast,Y,N
+685600,Willits city,(21) North Coast,Y,N
+617022,Crescent City city,(21) North Coast,Y,N
+607162,Blue Lake city,(21) North Coast,Y,N
+625296,Fortuna city,(21) North Coast,Y,N
+660900,Rio Dell city,(21) North Coast,Y,N
+680448,Trinidad city,(21) North Coast,Y,N
+623910,Ferndale city,(21) North Coast,Y,N
+602476,Arcata city,(21) North Coast,Y,N
+623042,Eureka city,(21) North Coast,Y,N
+619584,Dorris city,(21) North Coast,Y,N
+681134,Ukiah city,(21) North Coast,Y,N
+686944,Yreka city,(21) North Coast,Y,N
+625058,Fort Bragg city,(21) North Coast,Y,N
+600716,Albion CDP,(21) North Coast,Y,N
+600786,Alderpoint CDP,(21) North Coast,Y,N
+602028,Anchor Bay CDP,(21) North Coast,Y,N
+604478,Bayview CDP,(21) North Coast,Y,N
+605262,Benbow CDP,(21) North Coast,Y,N
+606150,Bertsch-Oceanview CDP,(21) North Coast,Y,N
+607246,Bodega CDP,(21) North Coast,Y,N
+607512,Boonville CDP,(21) North Coast,Y,N
+608530,Brooktrails CDP,(21) North Coast,Y,N
+609990,Calpella CDP,(21) North Coast,Y,N
+611376,Carmet CDP,(21) North Coast,Y,N
+611481,Carrick CDP,(21) North Coast,Y,N
+612146,Cazadero CDP,(21) North Coast,Y,N
+616728,Covelo CDP,(21) North Coast,Y,N
+619262,Dillon Beach CDP,(21) North Coast,Y,N
+619724,Douglas City CDP,(21) North Coast,Y,N
+621530,Edgewood CDP,(21) North Coast,Y,N
+624022,Fields Landing CDP,(21) North Coast,Y,N
+628154,Garberville CDP,(21) North Coast,Y,N
+629154,Gasquet CDP,(21) North Coast,Y,N
+629252,Gazelle CDP,(21) North Coast,Y,N
+630812,Graton CDP,(21) North Coast,Y,N
+631134,Greenview CDP,(21) North Coast,Y,N
+631246,Grenada CDP,(21) North Coast,Y,N
+631470,Guerneville CDP,(21) North Coast,Y,N
+632030,Happy Camp CDP,(21) North Coast,Y,N
+632562,Hayfork CDP,(21) North Coast,Y,N
+633935,Hiouchi CDP,(21) North Coast,Y,N
+634652,Hopland CDP,(21) North Coast,Y,N
+634694,Hornbrook CDP,(21) North Coast,Y,N
+634928,Humboldt Hill CDP,(21) North Coast,Y,N
+636098,Hyampom CDP,(21) North Coast,Y,N
+636420,Indianola CDP,(21) North Coast,Y,N
+637596,Junction City CDP,(21) North Coast,Y,N
+638702,Klamath CDP,(21) North Coast,Y,N
+640928,Laytonville CDP,(21) North Coast,Y,N
+641026,Leggett CDP,(21) North Coast,Y,N
+641278,Lewiston CDP,(21) North Coast,Y,N
+641866,Little River CDP,(21) North Coast,Y,N
+642328,Loleta CDP,(21) North Coast,Y,N
+644812,Macdoel CDP,(21) North Coast,Y,N
+645092,Mad River CDP,(21) North Coast,Y,N
+645386,Manchester CDP,(21) North Coast,Y,N
+645414,Manila CDP,(21) North Coast,Y,N
+648928,Monte Rio CDP,(21) North Coast,Y,N
+649768,Mount Hebron CDP,(21) North Coast,Y,N
+650146,Myers Flat CDP,(21) North Coast,Y,N
+651042,Newell CDP,(21) North Coast,Y,N
+654218,Orick CDP,(21) North Coast,Y,N
+656854,Phillipsville CDP,(21) North Coast,Y,N
+656868,Philo CDP,(21) North Coast,Y,N
+659906,Redcrest CDP,(21) North Coast,Y,N
+660088,Redway CDP,(21) North Coast,Y,N
+663386,Ruth CDP,(21) North Coast,Y,N
+664252,Salmon Creek CDP,(21) North Coast,Y,N
+671372,Shelter Cove CDP,(21) North Coast,Y,N
+672380,Smith River CDP,(21) North Coast,Y,N
+678176,Tennant CDP,(21) North Coast,Y,N
+678715,Timber Cove CDP,(21) North Coast,Y,N
+680476,Trinity Center CDP,(21) North Coast,Y,N
+680483,Trinity Village CDP,(21) North Coast,Y,N
+681778,Valley Ford CDP,(21) North Coast,Y,N
+683794,Weaverville CDP,(21) North Coast,Y,N
+685642,Willow Creek CDP,(21) North Coast,Y,N
+641936,Live Oak city,(22) North Sacramento Valley,N,N
+616322,Corning city,(22) North Sacramento Valley,N,N
+678106,Tehama city,(22) North Sacramento Valley,N,N
+613014,Chico city,(22) North Sacramento Valley,N,N
+654386,Oroville city,(22) North Sacramento Valley,N,N
+654274,Orland city,(22) North Sacramento Valley,N,N
+685684,Willows city,(22) North Sacramento Valley,N,N
+614946,Colusa city,(22) North Sacramento Valley,N,N
+659920,Redding city,(22) North Sacramento Valley,N,N
+671225,Shasta Lake city,(22) North Sacramento Valley,N,N
+659892,Red Bluff city,(22) North Sacramento Valley,N,N
+602042,Anderson city,(22) North Sacramento Valley,N,N
+655520,Paradise town,(22) North Sacramento Valley,N,N
+606560,Biggs city,(22) North Sacramento Valley,N,N
+631260,Gridley city,(22) North Sacramento Valley,N,N
+602420,Arbuckle CDP,(22) North Sacramento Valley,N,N
+603792,Bangor CDP,(22) North Sacramento Valley,N,N
+609318,Butte Meadows CDP,(22) North Sacramento Valley,N,N
+612818,Cherokee CDP,(22) North Sacramento Valley,N,N
+614148,Clipper Mills CDP,(22) North Sacramento Valley,N,N
+616630,Cottonwood CDP,(22) North Sacramento Valley,N,N
+620900,East Nicolaus CDP,(22) North Sacramento Valley,N,N
+622006,Elk Creek CDP,(22) North Sacramento Valley,N,N
+624918,Forest Ranch CDP,(22) North Sacramento Valley,N,N
+626056,French Gulch CDP,(22) North Sacramento Valley,N,N
+629392,Gerber CDP,(22) North Sacramento Valley,N,N
+631288,Grimes CDP,(22) North Sacramento Valley,N,N
+631890,Hamilton City CDP,(22) North Sacramento Valley,N,N
+638024,Kelly Ridge CDP,(22) North Sacramento Valley,N,N
+640536,Las Flores CDP,(22) North Sacramento Valley,N,N
+644140,Los Molinos CDP,(22) North Sacramento Valley,N,N
+645120,Magalia CDP,(22) North Sacramento Valley,N,N
+645512,Manton CDP,(22) North Sacramento Valley,N,N
+646338,Maxwell CDP,(22) North Sacramento Valley,N,N
+649558,Mountain Gate CDP,(22) North Sacramento Valley,N,N
+651574,Nord CDP,(22) North Sacramento Valley,N,N
+655086,Palermo CDP,(22) North Sacramento Valley,N,N
+656042,Paskenta CDP,(22) North Sacramento Valley,N,N
+656196,Paynes Creek CDP,(22) North Sacramento Valley,N,N
+658814,Proberta CDP,(22) North Sacramento Valley,N,N
+659115,Rackerby CDP,(22) North Sacramento Valley,N,N
+659604,Rancho Tehama Reserve CDP,(22) North Sacramento Valley,N,N
+660592,Richfield CDP,(22) North Sacramento Valley,N,N
+662168,Robbins CDP,(22) North Sacramento Valley,N,N
+662200,Robinson Mill CDP,(22) North Sacramento Valley,N,N
+663134,Round Mountain CDP,(22) North Sacramento Valley,N,N
+673178,South Oroville CDP,(22) North Sacramento Valley,N,N
+678470,Thermalito CDP,(22) North Sacramento Valley,N,N
+682786,Vina CDP,(22) North Sacramento Valley,N,N
+655520,Paradise town,(22) North Sacramento Valley,N,N
+603792,Bangor CDP,(22) North Sacramento Valley,N,N
+606070,Berry Creek CDP,(22) North Sacramento Valley,N,N
+612818,Cherokee CDP,(22) North Sacramento Valley,N,N
+614148,Clipper Mills CDP,(22) North Sacramento Valley,N,N
+614148,Clipper Mills CDP,(22) North Sacramento Valley,N,N
+616035,Concow CDP,(22) North Sacramento Valley,N,N
+638024,Kelly Ridge CDP,(22) North Sacramento Valley,N,N
+638800,Knights Landing CDP,(22) North Sacramento Valley,N,N
+645120,Magalia CDP,(22) North Sacramento Valley,N,N
+659115,Rackerby CDP,(22) North Sacramento Valley,N,N
+662200,Robinson Mill CDP,(22) North Sacramento Valley,N,N
+662200,Robinson Mill CDP,(22) North Sacramento Valley,N,N
+662200,Robinson Mill CDP,(22) North Sacramento Valley,N,N
+686678,Yankee Hill CDP,(22) North Sacramento Valley,N,N
+614148,Clipper Mills CDP,(22) North Sacramento Valley,N,N
+614148,Clipper Mills CDP,(22) North Sacramento Valley,N,N
+662200,Robinson Mill CDP,(22) North Sacramento Valley,N,N
+614148,Clipper Mills CDP,(22) North Sacramento Valley,N,N
+683668,Watsonville city,(23) Pajaro River Watershed,N,N
+601651,Amesti CDP,(23) Pajaro River Watershed,N,N
+655044,Pajaro CDP,(23) Pajaro River Watershed,N,N
+683668,Watsonville city,(23) Pajaro River Watershed,N,N
+618394,Delano city,(24) Poso Creek,N,Y
+620438,Earlimart CDP,(24) Poso Creek,N,Y
+660606,Richgrove CDP,(24) Poso Creek,N,Y
+662496,Rodriguez Camp CDP,(24) Poso Creek,N,Y
+618394,Delano city,(24) Poso Creek,N,Y
+618394,Delano city,(24) Poso Creek,N,Y
+644826,McFarland city,(24) Poso Creek,N,Y
+671106,Shafter city,(24) Poso Creek,N,Y
+683542,Wasco city,(24) Poso Creek,N,Y
+609332,Buttonwillow CDP,(24) Poso Creek,N,Y
+612860,Cherokee Strip CDP,(24) Poso Creek,N,Y
+644280,Lost Hills CDP,(24) Poso Creek,N,Y
+647192,Mexican Colony CDP,(24) Poso Creek,N,Y
+672338,Smith Corner CDP,(24) Poso Creek,N,Y
+618394,Delano city,(24) Poso Creek,N,Y
+636294,Imperial Beach city,(26) San Diego,N,N
+621712,El Cajon city,(26) San Diego,N,N
+682996,Vista city,(26) San Diego,N,N
+650398,National City city,(26) San Diego,N,N
+607624,Bostonia CDP,(26) San Diego,N,N
+610559,Camp Pendleton North CDP,(26) San Diego,N,N
+610561,Camp Pendleton South CDP,(26) San Diego,N,N
+639724,Lake San Marcos CDP,(26) San Diego,N,N
+649810,Mount Laguna CDP,(26) San Diego,N,N
+658478,Potrero CDP,(26) San Diego,N,N
+649810,Mount Laguna CDP,(26) San Diego,N,N
+668294,San Pablo city,(27) San Francisco Bay Area,N,N
+602980,Ashland CDP,(27) San Francisco Bay Area,N,N
+604415,Bay Point CDP,(27) San Francisco Bay Area,N,N
+614232,Clyde CDP,(27) San Francisco Bay Area,N,N
+619262,Dillon Beach CDP,(27) San Francisco Bay Area,N,N
+630028,Glen Ellen CDP,(27) San Francisco Bay Area,N,N
+645820,Marin City CDP,(27) San Francisco Bay Area,N,N
+649651,Mountain View CDP,(27) San Francisco Bay Area,N,N
+652162,North Richmond CDP,(27) San Francisco Bay Area,N,N
+653196,Oakville CDP,(27) San Francisco Bay Area,N,N
+654764,Pacheco CDP,(27) San Francisco Bay Area,N,N
+657960,Point Reyes Station CDP,(27) San Francisco Bay Area,N,N
+662700,Rollingwood CDP,(27) San Francisco Bay Area,N,N
+678126,Temelec CDP,(27) San Francisco Bay Area,N,N
+678890,Tomales CDP,(27) San Francisco Bay Area,N,N
+604415,Bay Point CDP,(27) San Francisco Bay Area,N,N
+668154,San Luis Obispo city,(28) San Luis Obispo,N,N
+653294,Oceano CDP,(28) San Luis Obispo,N,N
+668266,San Miguel CDP,(28) San Luis Obispo,N,N
+668434,San Simeon CDP,(28) San Luis Obispo,N,N
+614890,Colton city,(29) Santa Ana Watershed Project Authority,N,N
+633182,Hemet city,(29) Santa Ana Watershed Project Authority,N,N
+667112,San Jacinto city,(29) Santa Ana Watershed Project Authority,N,N
+658072,Pomona city,(29) Santa Ana Watershed Project Authority,N,N
+603820,Banning city,(29) Santa Ana Watershed Project Authority,N,N
+673962,Stanton city,(29) Santa Ana Watershed Project Authority,N,N
+609864,Calimesa city,(29) Santa Ana Watershed Project Authority,N,N
+639259,Laguna Woods city,(29) Santa Ana Watershed Project Authority,N,N
+665000,San Bernardino city,(29) Santa Ana Watershed Project Authority,N,N
+656700,Perris city,(29) Santa Ana Watershed Project Authority,N,N
+648788,Montclair city,(29) Santa Ana Watershed Project Authority,N,N
+606434,Big Bear Lake city,(29) Santa Ana Watershed Project Authority,N,N
+602294,Anza CDP,(29) Santa Ana Watershed Project Authority,N,N
+606406,Big Bear City CDP,(29) Santa Ana Watershed Project Authority,N,N
+607064,Bloomington CDP,(29) Santa Ana Watershed Project Authority,N,N
+617162,Crestline CDP,(29) Santa Ana Watershed Project Authority,N,N
+620697,East Hemet CDP,(29) Santa Ana Watershed Project Authority,N,N
+630410,Good Hope CDP,(29) Santa Ana Watershed Project Authority,N,N
+633574,Highgrove CDP,(29) Santa Ana Watershed Project Authority,N,N
+634316,Homeland CDP,(29) Santa Ana Watershed Project Authority,N,N
+639598,Lakeland Village CDP,(29) Santa Ana Watershed Project Authority,N,N
+639836,Lakeview CDP,(29) Santa Ana Watershed Project Authority,N,N
+646520,Meadowbrook CDP,(29) Santa Ana Watershed Project Authority,N,N
+646646,Mead Valley CDP,(29) Santa Ana Watershed Project Authority,N,N
+647430,Midway City CDP,(29) Santa Ana Watershed Project Authority,N,N
+649544,Mountain Center CDP,(29) Santa Ana Watershed Project Authority,N,N
+650132,Muscoy CDP,(29) Santa Ana Watershed Project Authority,N,N
+681708,Valle Vista CDP,(29) Santa Ana Watershed Project Authority,N,N
+639259,Laguna Woods city,(29) Santa Ana Watershed Project Authority,N,N
+632506,Hawaiian Gardens city,(29) Santa Ana Watershed Project Authority,N,N
+617162,Crestline CDP,(29) Santa Ana Watershed Project Authority,N,N
+639598,Lakeland Village CDP,(29) Santa Ana Watershed Project Authority,N,N
+657302,Pi5on Hills CDP,(29) Santa Ana Watershed Project Authority,N,N
+632506,Hawaiian Gardens city,(29) Santa Ana Watershed Project Authority,N,N
+602294,Anza CDP,(3) Anza Borrego Desert,N,N
+607596,Borrego Springs CDP,(3) Anza Borrego Desert,N,N
+607694,Boulevard CDP,(3) Anza Borrego Desert,N,N
+637022,Jacumba CDP,(3) Anza Borrego Desert,N,N
+649810,Mount Laguna CDP,(3) Anza Borrego Desert,N,N
+602294,Anza CDP,(3) Anza Borrego Desert,N,N
+649810,Mount Laguna CDP,(3) Anza Borrego Desert,N,N
+631414,Guadalupe city,(30) Santa Barbara County,N,N
+642524,Lompoc city,(30) Santa Barbara County,N,N
+611754,Casmalia CDP,(30) Santa Barbara County,N,N
+617727,Cuyama CDP,(30) Santa Barbara County,N,N
+636868,Isla Vista CDP,(30) Santa Barbara County,N,N
+651028,New Cuyama CDP,(30) Santa Barbara County,N,N
+672086,Sisquoc CDP,(30) Santa Barbara County,N,N
+683668,Watsonville city,(31) Santa Cruz County,N,N
+649796,Mount Hermon CDP,(31) Santa Cruz County,N,N
+683668,Watsonville city,(31) Santa Cruz County,N,N
+639259,Laguna Woods city,(32) South Orange County WMA,N,N
+639259,Laguna Woods city,(32) South Orange County WMA,N,N
+658240,Porterville city,(33) Southern Sierra,N,Y
+686300,Woodlake city,(33) Southern Sierra,N,Y
+609822,California Hot Springs CDP,(33) Southern Sierra,N,Y
+612314,Cedar Slope CDP,(33) Southern Sierra,N,Y
+621012,East Porterville CDP,(33) Southern Sierra,N,Y
+627014,Friant CDP,(33) Southern Sierra,N,Y
+632324,Hartland CDP,(33) Southern Sierra,N,Y
+636168,Idlewild CDP,(33) Southern Sierra,N,Y
+638076,Kennedy Meadows CDP,(33) Southern Sierra,N,Y
+644770,McClenney Tract CDP,(33) Southern Sierra,N,Y
+655506,Panorama Heights CDP,(33) Southern Sierra,N,Y
+657011,Pierpoint CDP,(33) Southern Sierra,N,Y
+657134,Pine Flat CDP,(33) Southern Sierra,N,Y
+658134,Ponderosa CDP,(33) Southern Sierra,N,Y
+658422,Posey CDP,(33) Southern Sierra,N,Y
+658436,Poso Park CDP,(33) Southern Sierra,N,Y
+670966,Sequoia Crest CDP,(33) Southern Sierra,N,Y
+671932,Silver City CDP,(33) Southern Sierra,N,Y
+673710,Springville CDP,(33) Southern Sierra,N,Y
+675588,Sugarloaf Mountain Park CDP,(33) Southern Sierra,N,Y
+675592,Sugarloaf Saw Mill CDP,(33) Southern Sierra,N,Y
+675596,Sugarloaf Village CDP,(33) Southern Sierra,N,Y
+678638,Three Rivers CDP,(33) Southern Sierra,N,Y
+685866,Wilsonia CDP,(33) Southern Sierra,N,Y
+658240,Porterville city,(33) Southern Sierra,N,Y
+686300,Woodlake city,(33) Southern Sierra,N,Y
+621012,East Porterville CDP,(33) Southern Sierra,N,Y
+673108,South Lake Tahoe city,(34) Tahoe-Sierra,N,N
+638548,Kings Beach CDP,(34) Tahoe-Sierra,N,N
+682334,Verdi CDP,(34) Tahoe-Sierra,N,N
+658240,Porterville city,(35) Tule,N,Y
+618394,Delano city,(35) Tule,N,Y
+616224,Corcoran city,(35) Tule,N,Y
+601010,Allensworth CDP,(35) Tule,N,Y
+601164,Alpaugh CDP,(35) Tule,N,Y
+620032,Ducor CDP,(35) Tule,N,Y
+621012,East Porterville CDP,(35) Tule,N,Y
+657512,Pixley CDP,(35) Tule,N,Y
+658191,Poplar-Cotton Center CDP,(35) Tule,N,Y
+678288,Terra Bella CDP,(35) Tule,N,Y
+678336,Teviston CDP,(35) Tule,N,Y
+678750,Tipton CDP,(35) Tule,N,Y
+686482,Woodville CDP,(35) Tule,N,Y
+658240,Porterville city,(35) Tule,N,Y
+658240,Porterville city,(35) Tule,N,Y
+618394,Delano city,(35) Tule,N,Y
+618394,Delano city,(35) Tule,N,Y
+621012,East Porterville CDP,(35) Tule,N,Y
+618394,Delano city,(35) Tule,N,Y
+672674,Sonora city,(36) Tuolumne-Stanislaus,N,N
+603316,Avery CDP,(36) Tuolumne-Stanislaus,N,N
+608716,Buck Meadows CDP,(36) Tuolumne-Stanislaus,N,N
+613182,Chinese Camp CDP,(36) Tuolumne-Stanislaus,N,N
+614454,Cold Springs CDP,(36) Tuolumne-Stanislaus,N,N
+614904,Columbia CDP,(36) Tuolumne-Stanislaus,N,N
+621188,East Sonora CDP,(36) Tuolumne-Stanislaus,N,N
+630900,Greeley Hill CDP,(36) Tuolumne-Stanislaus,N,N
+631372,Groveland CDP,(36) Tuolumne-Stanislaus,N,N
+637106,Jamestown CDP,(36) Tuolumne-Stanislaus,N,N
+642622,Long Barn CDP,(36) Tuolumne-Stanislaus,N,N
+648641,Mono Vista CDP,(36) Tuolumne-Stanislaus,N,N
+650034,Murphys CDP,(36) Tuolumne-Stanislaus,N,N
+675322,Strawberry CDP,(36) Tuolumne-Stanislaus,N,N
+680763,Tuolumne City CDP,(36) Tuolumne-Stanislaus,N,N
+680896,Tuttletown CDP,(36) Tuolumne-Stanislaus,N,N
+680966,Twain Harte CDP,(36) Tuolumne-Stanislaus,N,N
+603316,Avery CDP,(36) Tuolumne-Stanislaus,N,N
+608716,Buck Meadows CDP,(36) Tuolumne-Stanislaus,N,N
+630900,Greeley Hill CDP,(36) Tuolumne-Stanislaus,N,N
+650034,Murphys CDP,(36) Tuolumne-Stanislaus,N,N
+658352,Portola city,(37) Upper Feather River Watershed,N,N
+644364,Loyalton city,(37) Upper Feather River Watershed,N,N
+601094,Almanor CDP,(37) Upper Feather River Watershed,N,N
+604856,Belden CDP,(37) Upper Feather River Watershed,N,N
+606994,Blairsden CDP,(37) Upper Feather River Watershed,N,N
+608744,Bucks Lake CDP,(37) Upper Feather River Watershed,N,N
+610004,Calpine CDP,(37) Upper Feather River Watershed,N,N
+610914,Canyondam CDP,(37) Upper Feather River Watershed,N,N
+611166,Caribou CDP,(37) Upper Feather River Watershed,N,N
+612930,Chester CDP,(37) Upper Feather River Watershed,N,N
+613077,Chilcoot-Vinton CDP,(37) Upper Feather River Watershed,N,N
+613910,Clear Creek CDP,(37) Upper Feather River Watershed,N,N
+614148,Clipper Mills CDP,(37) Upper Feather River Watershed,N,N
+617050,Crescent Mills CDP,(37) Upper Feather River Watershed,N,N
+617288,Cromberg CDP,(37) Upper Feather River Watershed,N,N
+618485,Delleker CDP,(37) Upper Feather River Watershed,N,N
+630339,Gold Mountain CDP,(37) Upper Feather River Watershed,N,N
+631162,Greenville CDP,(37) Upper Feather River Watershed,N,N
+636364,Indian Falls CDP,(37) Upper Feather River Watershed,N,N
+637512,Johnsville CDP,(37) Upper Feather River Watershed,N,N
+639483,Lake Davis CDP,(37) Upper Feather River Watershed,N,N
+641789,Little Grass Valley CDP,(37) Upper Feather River Watershed,N,N
+644672,Mabie CDP,(37) Upper Feather River Watershed,N,N
+656182,Paxton CDP,(37) Upper Feather River Watershed,N,N
+658618,Prattville CDP,(37) Upper Feather River Watershed,N,N
+659080,Quincy CDP,(37) Upper Feather River Watershed,N,N
+670336,Sattley CDP,(37) Upper Feather River Watershed,N,N
+671774,Sierra Brooks CDP,(37) Upper Feather River Watershed,N,N
+671848,Sierraville CDP,(37) Upper Feather River Watershed,N,N
+673654,Spring Garden CDP,(37) Upper Feather River Watershed,N,N
+675168,Storrie CDP,(37) Upper Feather River Watershed,N,N
+678792,Tobin CDP,(37) Upper Feather River Watershed,N,N
+680952,Twain CDP,(37) Upper Feather River Watershed,N,N
+683494,Warner Valley CDP,(37) Upper Feather River Watershed,N,N
+684928,Westwood CDP,(37) Upper Feather River Watershed,N,N
+655520,Paradise town,(37) Upper Feather River Watershed,N,N
+606070,Berry Creek CDP,(37) Upper Feather River Watershed,N,N
+612818,Cherokee CDP,(37) Upper Feather River Watershed,N,N
+613077,Chilcoot-Vinton CDP,(37) Upper Feather River Watershed,N,N
+614148,Clipper Mills CDP,(37) Upper Feather River Watershed,N,N
+614148,Clipper Mills CDP,(37) Upper Feather River Watershed,N,N
+616035,Concow CDP,(37) Upper Feather River Watershed,N,N
+638024,Kelly Ridge CDP,(37) Upper Feather River Watershed,N,N
+640312,La Porte CDP,(37) Upper Feather River Watershed,N,N
+641789,Little Grass Valley CDP,(37) Upper Feather River Watershed,N,N
+645120,Magalia CDP,(37) Upper Feather River Watershed,N,N
+662200,Robinson Mill CDP,(37) Upper Feather River Watershed,N,N
+686678,Yankee Hill CDP,(37) Upper Feather River Watershed,N,N
+614148,Clipper Mills CDP,(37) Upper Feather River Watershed,N,N
+614148,Clipper Mills CDP,(37) Upper Feather River Watershed,N,N
+614148,Clipper Mills CDP,(37) Upper Feather River Watershed,N,N
+638226,Kerman city,(38) Kings Basin Water Authority,Y,Y
+627000,Fresno city,(38) Kings Basin Water Authority,Y,Y
+619318,Dinuba city,(38) Kings Basin Water Authority,Y,Y
+625436,Fowler city,(38) Kings Basin Water Authority,Y,Y
+654008,Orange Cove city,(38) Kings Basin Water Authority,Y,Y
+655856,Parlier city,(38) Kings Basin Water Authority,Y,Y
+660242,Reedley city,(38) Kings Basin Water Authority,Y,Y
+667056,Sanger city,(38) Kings Basin Water Authority,Y,Y
+670882,Selma city,(38) Kings Basin Water Authority,Y,Y
+606728,Biola CDP,(38) Kings Basin Water Authority,Y,Y
+607750,Bowles CDP,(38) Kings Basin Water Authority,Y,Y
+610032,Calwa CDP,(38) Kings Basin Water Authority,Y,Y
+611614,Caruthers CDP,(38) Kings Basin Water Authority,Y,Y
+617708,Cutler CDP,(38) Kings Basin Water Authority,Y,Y
+618450,Delft Colony CDP,(38) Kings Basin Water Authority,Y,Y
+618674,Del Rey CDP,(38) Kings Basin Water Authority,Y,Y
+620942,East Orosi CDP,(38) Kings Basin Water Authority,Y,Y
+640116,Lanare CDP,(38) Kings Basin Water Authority,Y,Y
+640746,Laton CDP,(38) Kings Basin Water Authority,Y,Y
+641166,Lemoore Station CDP,(38) Kings Basin Water Authority,Y,Y
+642566,London CDP,(38) Kings Basin Water Authority,Y,Y
+645232,Malaga CDP,(38) Kings Basin Water Authority,Y,Y
+646400,Mayfair CDP,(38) Kings Basin Water Authority,Y,Y
+648592,Monmouth CDP,(38) Kings Basin Water Authority,Y,Y
+648676,Monson CDP,(38) Kings Basin Water Authority,Y,Y
+654372,Orosi CDP,(38) Kings Basin Water Authority,Y,Y
+659290,Raisin City CDP,(38) Kings Basin Water Authority,Y,Y
+661096,Riverdale CDP,(38) Kings Basin Water Authority,Y,Y
+671078,Seville CDP,(38) Kings Basin Water Authority,Y,Y
+675672,Sultana CDP,(38) Kings Basin Water Authority,Y,Y
+680280,Traver CDP,(38) Kings Basin Water Authority,Y,Y
+684680,West Park CDP,(38) Kings Basin Water Authority,Y,Y
+686734,Yettem CDP,(38) Kings Basin Water Authority,Y,Y
+667126,San Joaquin city,(38) Kings Basin Water Authority,Y,Y
+627000,Fresno city,(38) Kings Basin Water Authority,Y,Y
+641166,Lemoore Station CDP,(38) Kings Basin Water Authority,Y,Y
+671078,Seville CDP,(38) Kings Basin Water Authority,Y,Y
+680266,Tranquillity CDP,(38) Kings Basin Water Authority,Y,Y
+601444,Alturas city,(39) Upper Pit River Watershed,N,N
+600310,Adin CDP,(39) Upper Pit River Watershed,N,N
+606336,Bieber CDP,(39) Upper Pit River Watershed,N,N
+609122,Burney CDP,(39) Upper Pit River Watershed,N,N
+609834,California Pines CDP,(39) Upper Pit River Watershed,N,N
+610732,Canby CDP,(39) Upper Pit River Watershed,N,N
+611782,Cassel CDP,(39) Upper Pit River Watershed,N,N
+617995,Daphnedale Park CDP,(39) Upper Pit River Watershed,N,N
+623532,Fall River Mills CDP,(39) Upper Pit River Watershed,N,N
+632408,Hat Creek CDP,(39) Upper Pit River Watershed,N,N
+641390,Likely CDP,(39) Upper Pit River Watershed,N,N
+643126,Lookout CDP,(39) Upper Pit River Watershed,N,N
+644700,McArthur CDP,(39) Upper Pit River Watershed,N,N
+651168,New Pine Creek CDP,(39) Upper Pit River Watershed,N,N
+652610,Nubieber CDP,(39) Upper Pit River Watershed,N,N
+653602,Old Station CDP,(39) Upper Pit River Watershed,N,N
+604730,Bear Valley CDP,(4) Yosemite - Mariposa,N,N
+607525,Bootjack CDP,(4) Yosemite - Mariposa,N,N
+608716,Buck Meadows CDP,(4) Yosemite - Mariposa,N,N
+616644,Coulterville CDP,(4) Yosemite - Mariposa,N,N
+624218,Fish Camp CDP,(4) Yosemite - Mariposa,N,N
+630900,Greeley Hill CDP,(4) Yosemite - Mariposa,N,N
+634708,Hornitos CDP,(4) Yosemite - Mariposa,N,N
+645932,Mariposa CDP,(4) Yosemite - Mariposa,N,N
+647374,Midpines CDP,(4) Yosemite - Mariposa,N,N
+683766,Wawona CDP,(4) Yosemite - Mariposa,N,N
+686912,Yosemite Valley CDP,(4) Yosemite - Mariposa,N,N
+608716,Buck Meadows CDP,(4) Yosemite - Mariposa,N,N
+630900,Greeley Hill CDP,(4) Yosemite - Mariposa,N,N
+620242,Dunsmuir city,(40) Upper Sacramento-McCloud,N,N
+649852,Mount Shasta city,(40) Upper Sacramento-McCloud,N,N
+606475,Big Bend CDP,(40) Upper Sacramento-McCloud,N,N
+639514,Lakehead CDP,(40) Upper Sacramento-McCloud,N,N
+644784,McCloud CDP,(40) Upper Sacramento-McCloud,N,N
+663134,Round Mountain CDP,(40) Upper Sacramento-McCloud,N,N
+639556,Lake Hughes CDP,(41) Upper Santa Clara River,N,N
+639556,Lake Hughes CDP,(41) Upper Santa Clara River,N,N
+633182,Hemet city,(42) Upper Santa Margarita,N,N
+602294,Anza CDP,(42) Upper Santa Margarita,N,N
+639598,Lakeland Village CDP,(42) Upper Santa Margarita,N,N
+602294,Anza CDP,(42) Upper Santa Margarita,N,N
+639598,Lakeland Village CDP,(42) Upper Santa Margarita,N,N
+639696,Lake of the Woods CDP,(43) Watersheds Coalition of Ventura County,N,N
+657372,Piru CDP,(43) Watersheds Coalition of Ventura County,N,N
+670322,Saticoy CDP,(43) Watersheds Coalition of Ventura County,N,N
+639696,Lake of the Woods CDP,(43) Watersheds Coalition of Ventura County,N,N
+657240,Pine Mountain Club CDP,(43) Watersheds Coalition of Ventura County,N,N
+651140,Newman city,(44) Westside - San Joaquin,N,Y
+619612,Dos Palos city,(44) Westside - San Joaquin,N,Y
+631568,Gustine city,(44) Westside - San Joaquin,N,Y
+648354,Modesto city,(44) Westside - San Joaquin,N,Y
+644028,Los Banos city,(44) Westside - San Joaquin,N,Y
+603302,Avenal city,(44) Westside - San Joaquin,N,Y
+636084,Huron city,(44) Westside - San Joaquin,N,Y
+624134,Firebaugh city,(44) Westside - San Joaquin,N,Y
+646828,Mendota city,(44) Westside - San Joaquin,N,Y
+610816,Cantua Creek CDP,(44) Westside - San Joaquin,N,Y
+617428,Crows Landing CDP,(44) Westside - San Joaquin,N,Y
+619654,Dos Palos Y CDP,(44) Westside - San Joaquin,N,Y
+630882,Grayson CDP,(44) Westside - San Joaquin,N,Y
+638394,Kettleman City CDP,(44) Westside - San Joaquin,N,Y
+641166,Lemoore Station CDP,(44) Westside - San Joaquin,N,Y
+670028,Santa Nella CDP,(44) Westside - San Joaquin,N,Y
+672954,South Dos Palos CDP,(44) Westside - San Joaquin,N,Y
+678652,Three Rocks CDP,(44) Westside - San Joaquin,N,Y
+683108,Volta CDP,(44) Westside - San Joaquin,N,Y
+684480,Westley CDP,(44) Westside - San Joaquin,N,Y
+667126,San Joaquin city,(44) Westside - San Joaquin,N,Y
+624134,Firebaugh city,(44) Westside - San Joaquin,N,Y
+630882,Grayson CDP,(44) Westside - San Joaquin,N,Y
+641166,Lemoore Station CDP,(44) Westside - San Joaquin,N,Y
+680266,Tranquillity CDP,(44) Westside - San Joaquin,N,Y
+639710,Lakeport city,"(45) Westside (Yolo, Solano, Napa, Lake, Colusa)",N,N
+613945,Clearlake city,"(45) Westside (Yolo, Solano, Napa, Lake, Colusa)",N,N
+613966,Clearlake Oaks CDP,"(45) Westside (Yolo, Solano, Napa, Lake, Colusa)",N,N
+613985,Clearlake Riviera CDP,"(45) Westside (Yolo, Solano, Napa, Lake, Colusa)",N,N
+638044,Kelseyville CDP,"(45) Westside (Yolo, Solano, Napa, Lake, Colusa)",N,N
+638800,Knights Landing CDP,"(45) Westside (Yolo, Solano, Napa, Lake, Colusa)",N,N
+644350,Lower Lake CDP,"(45) Westside (Yolo, Solano, Napa, Lake, Colusa)",N,N
+644406,Lucerne CDP,"(45) Westside (Yolo, Solano, Napa, Lake, Colusa)",N,N
+647332,Middletown CDP,"(45) Westside (Yolo, Solano, Napa, Lake, Colusa)",N,N
+651294,Nice CDP,"(45) Westside (Yolo, Solano, Napa, Lake, Colusa)",N,N
+673690,Spring Valley CDP,"(45) Westside (Yolo, Solano, Napa, Lake, Colusa)",N,N
+681302,University of California-Davis CDP,"(45) Westside (Yolo, Solano, Napa, Lake, Colusa)",N,N
+681358,Upper Lake CDP,"(45) Westside (Yolo, Solano, Napa, Lake, Colusa)",N,N
+638800,Knights Landing CDP,"(45) Westside (Yolo, Solano, Napa, Lake, Colusa)",N,N
+646170,Marysville city,(46) Yuba County,N,N
+603792,Bangor CDP,(46) Yuba County,N,N
+604576,Beale AFB CDP,(46) Yuba County,N,N
+612612,Challenge-Brownsville CDP,(46) Yuba County,N,N
+641572,Linda CDP,(46) Yuba County,N,N
+653714,Olivehurst CDP,(46) Yuba County,N,N
+659115,Rackerby CDP,(46) Yuba County,N,N
+662200,Robinson Mill CDP,(46) Yuba County,N,N
+603792,Bangor CDP,(46) Yuba County,N,N
+610676,Camptonville CDP,(46) Yuba County,N,N
+612612,Challenge-Brownsville CDP,(46) Yuba County,N,N
+614148,Clipper Mills CDP,(46) Yuba County,N,N
+619416,Dobbins CDP,(46) Yuba County,N,N
+652246,North San Juan CDP,(46) Yuba County,N,N
+657036,Pike CDP,(46) Yuba County,N,N
+659115,Rackerby CDP,(46) Yuba County,N,N
+662200,Robinson Mill CDP,(46) Yuba County,N,N
+672282,Smartsville CDP,(46) Yuba County,N,N
+614148,Clipper Mills CDP,(46) Yuba County,N,N
+614148,Clipper Mills CDP,(46) Yuba County,N,N
+662200,Robinson Mill CDP,(46) Yuba County,N,N
+614148,Clipper Mills CDP,(46) Yuba County,N,N
+612524,Ceres city,(47) East Stanislaus,N,N
+683612,Waterford city,(47) East Stanislaus,N,N
+648354,Modesto city,(47) East Stanislaus,N,N
+600535,Airport CDP,(47) East Stanislaus,N,N
+603708,Ballico CDP,(47) East Stanislaus,N,N
+608172,Bret Harte CDP,(47) East Stanislaus,N,N
+609353,Bystrom CDP,(47) East Stanislaus,N,N
+616762,Cowan CDP,(47) East Stanislaus,N,N
+618464,Delhi CDP,(47) East Stanislaus,N,N
+622622,Empire CDP,(47) East Stanislaus,N,N
+630882,Grayson CDP,(47) East Stanislaus,N,N
+633504,Hickman CDP,(47) East Stanislaus,N,N
+638422,Keyes CDP,(47) East Stanislaus,N,N
+655728,Parklawn CDP,(47) East Stanislaus,N,N
+661106,Riverdale Park CDP,(47) East Stanislaus,N,N
+663168,Rouse CDP,(47) East Stanislaus,N,N
+684578,West Modesto CDP,(47) East Stanislaus,N,N
+603708,Ballico CDP,(47) East Stanislaus,N,N
+618464,Delhi CDP,(47) East Stanislaus,N,N
+630882,Grayson CDP,(47) East Stanislaus,N,N
+637400,Johannesburg CDP,(48) Fremont Basin,N,N
+659668,Randsburg CDP,(48) Fremont Basin,N,N
+612328,Cedarville CDP,(49) Lahontan Basins,N,N
+613077,Chilcoot-Vinton CDP,(49) Lahontan Basins,N,N
+619878,Doyle CDP,(49) Lahontan Basins,N,N
+620424,Eagleville CDP,(49) Lahontan Basins,N,N
+625030,Fort Bidwell CDP,(49) Lahontan Basins,N,N
+639472,Lake City CDP,(49) Lahontan Basins,N,N
+656140,Patton Village CDP,(49) Lahontan Basins,N,N
+613077,Chilcoot-Vinton CDP,(49) Lahontan Basins,N,N
+612048,Cathedral City city,(5) Coachella Valley,Y,N
+614260,Coachella city,(5) Coachella Valley,Y,N
+618996,Desert Hot Springs city,(5) Coachella Valley,Y,N
+655254,Palm Springs city,(5) Coachella Valley,Y,N
+636448,Indio city,(5) Coachella Valley,Y,N
+618986,Desert Edge CDP,(5) Coachella Valley,Y,N
+619024,Desert Shores CDP,(5) Coachella Valley,Y,N
+629112,Garnet CDP,(5) Coachella Valley,Y,N
+636452,Indio Hills CDP,(5) Coachella Valley,Y,N
+646660,Mecca CDP,(5) Coachella Valley,Y,N
+649348,Morongo Valley CDP,(5) Coachella Valley,Y,N
+652302,North Shore CDP,(5) Coachella Valley,Y,N
+653224,Oasis CDP,(5) Coachella Valley,Y,N
+664294,Salton City CDP,(5) Coachella Valley,Y,N
+664308,Salton Sea Beach CDP,(5) Coachella Valley,Y,N
+672156,Sky Valley CDP,(5) Coachella Valley,Y,N
+678456,Thermal CDP,(5) Coachella Valley,Y,N
+678596,Thousand Palms CDP,(5) Coachella Valley,Y,N
+685208,Whitewater CDP,(5) Coachella Valley,Y,N
+687056,Yucca Valley town,(5) Coachella Valley,Y,N
+649348,Morongo Valley CDP,(5) Coachella Valley,Y,N
+657540,Placerville city,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+614498,Colfax city,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+630798,Grass Valley city,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+600982,Alleghany CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+614148,Clipper Mills CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+614450,Cold Springs CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+624834,Foresthill CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+629350,Georgetown CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+630420,Goodyears Bar CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+630714,Graniteville CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+638646,Kirkwood CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+640312,La Porte CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+641789,Little Grass Valley CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+651637,North Auburn CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+652246,North San Juan CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+656518,Penn Valley CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+657036,Pike CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+658030,Pollock Pines CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+661124,River Pines CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+663106,Rough and Ready CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+672492,Soda Springs CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+683570,Washington CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+657834,Plymouth city,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+610676,Camptonville CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+612612,Challenge-Brownsville CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+614148,Clipper Mills CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+614148,Clipper Mills CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+614148,Clipper Mills CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+619416,Dobbins CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+623980,Fiddletown CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+638646,Kirkwood CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+640312,La Porte CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+641789,Little Grass Valley CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+651000,Newcastle CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+651637,North Auburn CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+652246,North San Juan CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+657036,Pike CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+661124,River Pines CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+662200,Robinson Mill CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+672282,Smartsville CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+614148,Clipper Mills CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+614148,Clipper Mills CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+614148,Clipper Mills CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+662200,Robinson Mill CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+614148,Clipper Mills CDP,"(6) Cosumnes, American, Bear, Yuba (CABY)",N,N
+606210,Bethel Island CDP,(7) East Contra Costa County,N,N
+604415,Bay Point CDP,(7) East Contra Costa County,N,N
+642202,Lodi city,(8) Eastern San Joaquin,N,N
+675000,Stockton city,(8) Eastern San Joaquin,N,N
+603209,August CDP,(8) Eastern San Joaquin,N,N
+616651,Country Club CDP,(8) Eastern San Joaquin,N,N
+623630,Farmington CDP,(8) Eastern San Joaquin,N,N
+626028,French Camp CDP,(8) Eastern San Joaquin,N,N
+628182,Garden Acres CDP,(8) Eastern San Joaquin,N,N
+638065,Kennedy CDP,(8) Eastern San Joaquin,N,N
+642104,Lockeford CDP,(8) Eastern San Joaquin,N,N
+677595,Taft Mosswood CDP,(8) Eastern San Joaquin,N,N
+678568,Thornton CDP,(8) Eastern San Joaquin,N,N
+682562,Victor CDP,(8) Eastern San Joaquin,N,N
+678568,Thornton CDP,(8) Eastern San Joaquin,N,N
+682422,Vernon city,(9) Gateway Region,N,N
+644574,Lynwood city,(9) Gateway Region,N,N
+655618,Paramount city,(9) Gateway Region,N,N
+662896,Rosemead city,(9) Gateway Region,N,N
+648816,Montebello city,(9) Gateway Region,N,N
+615044,Compton city,(9) Gateway Region,N,N
+604870,Bell city,(9) Gateway Region,N,N
+636056,Huntington Park city,(9) Gateway Region,N,N
+673080,South Gate city,(9) Gateway Region,N,N
+604996,Bell Gardens city,(9) Gateway Region,N,N
+614974,Commerce city,(9) Gateway Region,N,N
+617498,Cudahy city,(9) Gateway Region,N,N
+632506,Hawaiian Gardens city,(9) Gateway Region,N,N
+646492,Maywood city,(9) Gateway Region,N,N
+620802,East Los Angeles CDP,(9) Gateway Region,N,N
+621034,East Rancho Dominguez CDP,(9) Gateway Region,N,N
+624477,Florence-Graham CDP,(9) Gateway Region,N,N
+683402,Walnut Park CDP,(9) Gateway Region,N,N
+684780,West Rancho Dominguez CDP,(9) Gateway Region,N,N
+685614,Willowbrook CDP,(9) Gateway Region,N,N
+632506,Hawaiian Gardens city,(9) Gateway Region,N,N
