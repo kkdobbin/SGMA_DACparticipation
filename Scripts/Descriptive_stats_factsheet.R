@@ -25,7 +25,6 @@ Data$DACP_IDNumber <- as.factor(Data$DACP_IDNumber)
 Regions$FIRST_HRNA <- as.factor(Regions$FIRST_HRNA)
 Regions$HR <- as.factor(Regions$HR)
 
-
 # Make MOU and MOA the same
 Data$GSAType[Data$GSAType == "MOA"] <- "MOU"
 table(Data$GSAType)
