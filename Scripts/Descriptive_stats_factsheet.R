@@ -1,6 +1,7 @@
 # Load libraries 
 library(tidyverse)
 library(dplyr)
+library(ggplot2)
 
 # Load data
 Data <- read_csv("Data/DACP_GSApostings_3.27.18.csv")
@@ -24,6 +25,7 @@ Data$AdvisoryCommittee <- as.factor(Data$AdvisoryCommittee)
 Data$DACP_IDNumber <- as.factor(Data$DACP_IDNumber)
 Regions$FIRST_HRNA <- as.factor(Regions$FIRST_HRNA)
 Regions$HR <- as.factor(Regions$HR)
+Regions$DACP_Place_IDNumber <- as.factor(Regions$DACP_Place_IDNumber)
 
 # Make MOU and MOA the same
 Data$GSAType[Data$GSAType == "MOA"] <- "MOU"
@@ -56,8 +58,19 @@ tableunique$Var1 <- as.factor(tableunique$Var1)
 colnames(tableunique)[1] <- "DACP_Place_IDNumber"
 Regions2 <- Regions %>% select(HR, DACP_Place_IDNumber, DACP_Place_Name)
 DACbyRegion <- left_join(tableunique, Regions2, by = "DACP_Place_IDNumber")
+Data <- left_join(Data, Regions2, by = c("DACP_IDNumber" = "DACP_Place_IDNumber" ))
+Data$DACP_IDNumber <- as.factor(Data$DACP_IDNumber)
 
 # General stats for Unique DACPs -----------------------------------------------------------------
+table(Data$GSADWR_GSA_ID)
+
+#How many MOUs versus JPS have members or decision makers
+JPAs <- Data %>% filter(GSAType == "JPA") 
+table(JPAs$GSAMember)
+table(JPAs$DecisionMaker)
+MOUs <- Data %>% filter(GSAType == "MOU")
+table(MOUs$GSAMember)
+table(MOUs$DecisionMaker)
 
 # Figure out how many joined to more than one
 tableunique <- as.data.frame(table(Data$DACP_IDNumber)) #243
@@ -98,7 +111,7 @@ allincorporated <- Data %>% filter(Incorporated == "Y")
 uniqueallincorporated <- as.data.frame(unique(allincorporated$DACP_IDNumber))
 nrow(uniqueallincorporated) # confirms there are 32 total
 
-#including surrogates. 11/22 plus 5/10 is 16/32 or 50% for members. For DMs 13/22 plus 5/10 is 18/32 or 56%
+#including surrogates. 11/22 plus 5/10 is 16/32 or 50% for members. For DMs 13/22 plus 5/10 is 18/32 or 56%.
 
 # Numbers for unincoporated DACs
 Unincorporated_OnlyOne <- OnlyOne %>% filter(Incorporated == "N") 
@@ -154,7 +167,9 @@ uniqueGSAMember <- as.data.frame(unique(GSAMember$GSADWR_GSA_ID)) #27 unique GSA
 
 #by region
 GSAswithDACMembers <- GSAMember[!duplicated(GSAMember$GSADWR_GSA_ID), ]
-table(GSAswithDACMembers$HR)
+Table1 <- as.data.frame(table(GSAswithDACMembers$HR.y))
+colnames(Table1)[1] <- "HR"
+colnames(Table1)[2] <- "members"
 
 # number of GSAs with DAC decision-makers
 summary(Data$DecisionMaker)
@@ -163,7 +178,18 @@ uniqueGSADecisionMaker <- as.data.frame(unique(GSADecisionMaker$GSADWR_GSA_ID)) 
 
 #by region
 GSAswithDACDMs <- GSADecisionMaker[!duplicated(GSADecisionMaker$GSADWR_GSA_ID), ]
-table(GSAswithDACDMs$HR)
+table(GSAswithDACDMs$HR.y)
+Table2 <- as.data.frame(table(GSAswithDACDMs$HR.y))
+colnames(Table2)[1] <- "HR"
+colnames(Table2)[2] <- "DMs"
+MasterTable <- left_join(Table1, Table2, by = "HR")
+ggplot(MasterTable, aes(HR, DMs)) +   
+  geom_bar(aes(y = "HR"))
+
+# Graph numbers and DMs by region
+Combined <- full_join(GSAswithDACDMs, GSAswithDACMembers, by = "DACP_IDNumber") # fuck doesn't work well for graphing
+
+ggplot(data = GSAswith)
 
 # DAC participation by GSA by GSA type
 

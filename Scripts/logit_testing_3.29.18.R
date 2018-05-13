@@ -116,3 +116,6 @@ pvalue <- 1 - pchisq(142.74, 259) # so can accept null hypothesis that the model
 library(car)
 influenceIndexPlot(logit, vars=c("Cook", "Studentized", "hat"), id.n=5) # looks like most residuals are negative
 Data2$fitted <- fitted(logit)
+
+#mcfaddens R2 # McKelveyZavoina # get something a little lower than 
+PseudoR2(logit, which = NULL)
