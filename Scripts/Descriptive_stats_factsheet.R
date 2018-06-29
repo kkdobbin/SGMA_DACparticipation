@@ -4,7 +4,7 @@ library(dplyr)
 library(ggplot2)
 
 # Load data
-Data <- read_csv("Data/DACP_GSApostings_3.27.18.csv")
+Data <- read_csv("Data/DACP_GSApostings_6.6.18.csv")
 Regions <- read_csv("Data/hyrdoregions_DACP_int_3.27.18_dupsdeleted.csv")
 
 # Clean up data -----------------------------------------------------------
@@ -42,18 +42,15 @@ Data$DACP_Population[Data$DACP_Population == 0] <- NA
 # Number of GSA eligible entities NA make zeros
 Data$number_GSA_eligible_entities[is.na(Data$number_GSA_eligible_entities)] <- 0
 
-#Data has 286 (changed since with data improvements/changes I think) observations total before limiting it any more than just small DACs and intersections ten percent or greater. Plus nine NAs. Any other NAs or observations removed? what is the total universe here? narrowed it down to have just 9 NAs (one observation has NAs in two categories)
+#Data has 283 observations total before limiting it any more than just small DACs and intersections ten percent or greater. Plus nine NAs. Any other NAs or observations removed? what is the total universe here? narrowed it down to have just 9 NAs (one observation has NAs in two categories)
 
 # clean up stuff I haven't done yet
 
 # Change NA is Listed_IP variable to yes's
 Data$Listed_IP[is.na(Data$Listed_IP)] <- "Y"
 
-#now a lot fewer NAs but three in advisory committee column that should be Ns
-# Data$AdvisoryCommittee[is.na(Data$AdvisoryCommittee)] <- "N"
-# table(Data$AdvisoryCommittee)
-
 # add in regions
+tableunique <- as.data.frame(table(Data$DACP_IDNumber))
 tableunique$Var1 <- as.factor(tableunique$Var1)
 colnames(tableunique)[1] <- "DACP_Place_IDNumber"
 Regions2 <- Regions %>% select(HR, DACP_Place_IDNumber, DACP_Place_Name)
@@ -61,7 +58,7 @@ DACbyRegion <- left_join(tableunique, Regions2, by = "DACP_Place_IDNumber")
 Data <- left_join(Data, Regions2, by = c("DACP_IDNumber" = "DACP_Place_IDNumber" ))
 Data$DACP_IDNumber <- as.factor(Data$DACP_IDNumber)
 
-# General stats for Unique DACPs -----------------------------------------------------------------
+# General stats for Unique DACPs -----------------------------------------------------
 table(Data$GSADWR_GSA_ID)
 
 #How many MOUs versus JPS have members or decision makers
@@ -94,18 +91,19 @@ colnames(tableunique)[2] <- "Count_GSA_Int"
 Data <- left_join(Data, tableunique, by = "DACP_IDNumber")
 MorethanOneGSA <- Data %>% select(DACP_IDNumber, DACP_Name, GSA_Name, GSAMember, DecisionMaker, Listed_IP, Count_GSA_Int, Incorporated) %>% filter(Count_GSA_Int > 1)
 uniqueMorethanOneGSA <- as.data.frame(unique(MorethanOneGSA$DACP_IDNumber))
+
 OnlyOne <- Data %>% select(DACP_IDNumber, DACP_Name, GSA_Name, GSAMember, DecisionMaker, Listed_IP, Count_GSA_Int, Incorporated) %>% filter(Count_GSA_Int == 1)
 uniqueOnlyOne <- as.data.frame(unique(OnlyOne$DACP_IDNumber))
 table(OnlyOne$GSAMember)
 table(OnlyOne$DecisionMaker)
-# Because there were 8 that were both members and decision makers in the mroe than one gsa subset, All together this means that Only 37 out of the 243 DACs, or 15%, were members of their GSA. 47, or 19%, were decision-makers. 
+# Because there were 8 that were both members and decision makers in the mroe than one gsa subset, All together this means that 0nly 37 (29 plus 8) out of the 243 DACs, or 15%, were members of their GSA. 42, or 17%, were decision-makers. 
 
 # Numbers for incorporated DACs
 Incorporated_OnlyOne <- OnlyOne %>% filter(Incorporated == "Y") 
 table(Incorporated_OnlyOne$GSAMember)
 table(Incorporated_OnlyOne$DecisionMaker)
 Incorproated_MorethanOneGSA <- MorethanOneGSA %>% filter(Incorporated == "Y")
-unique(Incorproated_MorethanOneGSA$DACP_IDNumber) # 10 incoporated DACs in the more than one GSA set tota
+unique(Incorproated_MorethanOneGSA$DACP_IDNumber) # 10 incoporated DACs in the only one GSA set total
 # Plus five incorporated communities in the more than one GSA list that are members and 5 that are decision makers (out of ten total incoporated in that set) so 15 out of 32 or 47% of the incoporated ones are GSA members. Five plus 12 so 17 decision makers out of 32 or 53%. 
 allincorporated <- Data %>% filter(Incorporated == "Y")
 uniqueallincorporated <- as.data.frame(unique(allincorporated$DACP_IDNumber))
@@ -115,25 +113,34 @@ nrow(uniqueallincorporated) # confirms there are 32 total
 
 # Numbers for unincoporated DACs
 Unincorporated_OnlyOne <- OnlyOne %>% filter(Incorporated == "N") 
-table(Unincorporated_OnlyOne$GSAMember)
-table(Unincorporated_OnlyOne$DecisionMaker)
+table(Unincorporated_OnlyOne$GSAMember) #19 yes (69 S and Y)
+table(Unincorporated_OnlyOne$DecisionMaker) #22 Yes and (72 S and Y)
 Unincorporated_MorethanOne <- MorethanOneGSA %>% filter(Incorporated == "N")
-unique(Unincorporated_MorethanOne$DACP_IDNumber) #29 in this more than one set plus 10 equals the 39 joining with more than one total. yay! 3 unincoporated communities in this set were both members and decision makers. so three plus 19 for GSA members or 22 out of 211 or 10% members for unincoporated community. For decision makers, three plus 27 so 30 out of 211 or 14%
+unique(Unincorporated_MorethanOne$DACP_IDNumber) #28 unique
+
+#28 in this more than one set plus 10 equals the 39 joining with more than one total. yay! 
+# 3 unincoporated communities in this set were both members and decision makers. so three plus 19 for GSA members or 22 out of 211 or 10% members for unincoporated community. For decision makers, three plus 22 so 25 out of 211 or 12%
+
 allunincorporated <- Data %>% filter(Incorporated == "N")
 uniqueallunincorporated <- as.data.frame(unique(allunincorporated$DACP_IDNumber))
 nrow(uniqueallunincorporated) # 211 total unincporated communities (which adds to 243!)
 
 #including surrogates
-table(Unincorporated_MorethanOne$GSAMember) #68/182 plus 11/29 is 79/211 or 37.4%
-table(Unincorporated_MorethanOne$DecisionMaker) #71/182 plus 11/29 is 82/211 or 39%
+table(Unincorporated_MorethanOne$GSAMember) #69/183 plus 10/28 is 79/211 or 37.4%
+table(Unincorporated_MorethanOne$DecisionMaker) #72/183 plus 10/28 is 82/211 or 39%
+
 
 # Number of unique DACPs listed on interested parties list
-summary(Data$Listed_IP) #247 intersections not counting where the DAC is a member. 
+summary(Data$Listed_IP) #246 intersections not counting where the DAC is a member. 
 ListedIPs <- Data %>% filter(Data$Listed_IP == "Y")
 NotlistedIPs <- Data %>% filter(Data$Listed_IP == "N")
 IPNA <- Data %>% filter(is.na(Data$Listed_IP))
 uniqueListedIPs <- as.data.frame(unique(ListedIPs$DACP_IDNumber))
 
+nonmemberints <- Data %>% filter(Data$GSAMember == "N" | Data$GSAMember == "S") #246 intersections where DAC is not a member
+table(nonmemberints$Listed_IP) #128/246 is 52% not listed! 48% listed. 
+
+table(Data$Listed_IP) # just looking at every intersection 55% listed 
 
 # GSA level stats ---------------------------------------------------------
 
@@ -173,8 +180,8 @@ colnames(Table1)[2] <- "members"
 
 # number of GSAs with DAC decision-makers
 summary(Data$DecisionMaker)
-GSADecisionMaker <- Data %>% filter(Data$DecisionMaker == "Y") # 47 decison makers
-uniqueGSADecisionMaker <- as.data.frame(unique(GSADecisionMaker$GSADWR_GSA_ID)) #31 unique GSAs so 31 our of 109 or 28%
+GSADecisionMaker <- Data %>% filter(Data$DecisionMaker == "Y") # 42 decison makers
+uniqueGSADecisionMaker <- as.data.frame(unique(GSADecisionMaker$GSADWR_GSA_ID)) #30 unique GSAs so 30 our of 109 or 28%
 
 #by region
 GSAswithDACDMs <- GSADecisionMaker[!duplicated(GSADecisionMaker$GSADWR_GSA_ID), ]
@@ -215,14 +222,15 @@ MOUGSAsyesMembers <- MOUGSAs %>% filter(MOUGSAs$GSAMember == "Y") #
 uniqueMOUGSAsyesMembers <- as.data.frame(unique(MOUGSAsyesMembers$GSADWR_GSA_ID)) # 7 of the 18 MOUs or 39% have DAC members 
 
 #Singles
-SingleGSAs <- Data %>% filter(Data$GSAType == "Single") # 148 obs
+SingleGSAs <- Data %>% filter(Data$GSAType == "Single") # 147 obs
 uniqueSingleGSAs <- as.data.frame(unique(SingleGSAs$GSADWR_GSA_ID)) # between 59 single GSAs
 SingleGSAsyesMembers <- SingleGSAs %>% filter(SingleGSAs$GSAMember == "Y") # 
 uniqueSignleGSAsyesMembers <- as.data.frame(unique(SingleGSAsyesMembers$GSADWR_GSA_ID)) # 9 of the 59 single GSAs or 15% have DAC members 
 
 # of GSAs that identified all the DACs in their area in their notice? 
+## didn't recheck for now 6.6.18
 
-Test <- Simplified %>%
+Test <- Data %>%
   group_by(GSADWR_GSA_ID, Listed_IP) %>% 
   summarise(n= n()) 
 IPsYes <- Test3 %>% filter(Listed_IP == "Y")

@@ -1,4 +1,4 @@
-# Logits May 4 2018
+# Logits 5.4.18
 
 # Load libraries 
 library(tidyverse)
@@ -13,27 +13,26 @@ Data <- read_csv("Data/DACP_GSApostings_3.27.18.csv")
 Regions <- read_csv("Data/hyrdoregions_DACP_int_3.27.18_dupsdeleted.csv")
 IRWM <- read_csv("Data/IRWM_dupsdeleted_4.10.18.csv")
 DEM <- read_csv("Data/Place_demographics_cutandedited_5_4_18.csv")
-GWdependent <- read_csv("Data/DACP_GWdependent_5.13.18.csv")
-SWdependent <- read_csv("Data/DACP_SWdependent_5.13.18.csv")
-MHI <- read_csv("Data/DACP_MHI_5.13.18.csv")
 
-# Clean up data -------------------------------------------------------
-
-# get rid of extra columns
-IRWM <- select(IRWM, -13, -14)
-GWdependent <- select(GWdependent, -4, -5, -6)
-SWdependent <- select(SWdependent, -4, -5, -6)
-
-#get rid of extra rows
-GWdependent <- GWdependent[!is.na(GWdependent$DACP_id),]
-SWdependent <- SWdependent[!is.na(SWdependent$DACP_id),]
-
-# turn ACS -- and ** into NA
-MHI$MHI_e[MHI$MHI_e == "-"] <- NA
+# Clean up data and add variables -------------------------------------------------------
 
 # Clarify some variables
 colnames(Data)[17] <- "GSA_Int_a_"
 colnames(Data)[18] <- "GSA_Int_Percent"
+
+# Make variable types correct
+Data$GSAType <- as.factor(Data$GSAType)
+Data$GSAMember <- as.factor(Data$GSAMember)
+Data$DecisionMaker <- as.factor(Data$DecisionMaker)
+Data$Listed_IP <- as.factor(Data$Listed_IP)
+Data$Incorporated <- as.factor(Data$Incorporated)
+Data$DAC_Population <- as.numeric(Data$DACP_Population)
+Data$GSA_eligible_entity <- as.factor(Data$GSA_eligible_entity)
+Data$AdvisoryCommittee <- as.factor(Data$AdvisoryCommittee)
+Data$DACP_IDNumber <- as.factor(Data$DACP_IDNumber)
+Regions$FIRST_HRNA <- as.factor(Regions$FIRST_HRNA)
+Regions$HR <- as.factor(Regions$HR)
+Regions$DACP_Place_IDNumber <- as.factor(Regions$DACP_Place_IDNumber)
 
 # Make MOU and MOA the same
 Data$GSAType[Data$GSAType == "MOA"] <- "MOU"
@@ -50,48 +49,10 @@ Data$DACP_Population[Data$DACP_Population == 0] <- NA
 # Number of GSA eligible entities NA make zeros
 Data$number_GSA_eligible_entities[is.na(Data$number_GSA_eligible_entities)] <- 0
 
-# Change NA is Listed_IP variable to yes's (this needs to be noted in text)
+#Data has 283 observations total before limiting it any more than just small DACs and intersections ten percent or greater. 
+
+# Change NA is Listed_IP variable to yes's
 Data$Listed_IP[is.na(Data$Listed_IP)] <- "Y"
-
-#Can't have pop 0
-DEM$ACS_pop_e[DEM$ACS_pop_e == 0] <- NA
-
-# Make variable types correct
-Data$GSAType <- as.factor(Data$GSAType)
-Data$GSAMember <- as.factor(Data$GSAMember)
-Data$DecisionMaker <- as.factor(Data$DecisionMaker)
-Data$Listed_IP <- as.factor(Data$Listed_IP)
-Data$Incorporated <- as.factor(Data$Incorporated)
-Data$DAC_Population <- as.integer(Data$DACP_Population)
-Data$AdvisoryCommittee <- as.factor(Data$AdvisoryCommittee)
-Data$DACP_IDNumber <- as.factor(Data$DACP_IDNumber)
-Data$GSADWR_GSA_ID <- as.factor(Data$GSADWR_GSA_ID)
-Data$GSA_Basin <- as.factor(Data$GSA_Basin)
-Data$GSAstatus <- as.factor(Data$GSAstatus)
-Data$GSAMember <- as.factor(Data$GSAMember)
-Data$DecisionMaker <- as.factor(Data$DecisionMaker)
-Data$Voting_type <- as.factor(Data$Voting_type)
-Data$Listed_IP <- as.factor(Data$Listed_IP)
-Data$GSA_eligible_entity <- as.factor(Data$GSA_eligible_entity)
-
-DEM$DACP_IDNumber <- as.factor(DEM$DACP_IDNumber)
-DEM$ACS_white_epercent <- as.numeric(DEM$ACS_white_epercent)
-DEM$ACS_white_mepercent <- as.numeric(DEM$ACS_white_mepercent)
-DEM$ACS_whitenotHOL_epercent <- as.numeric(DEM$ACS_whitenotHOL_epercent)
-
-Regions$FIRST_HRNA <- as.factor(Regions$FIRST_HRNA)
-Regions$HR <- as.factor(Regions$HR)
-Regions$DACP_Place_IDNumber <- as.factor(Regions$DACP_Place_IDNumber)
-colnames(Regions)[7] <- "DACP_IDNumber"
-
-SWdependent$SW <- as.factor(SWdependent$SW)
-GWdependent$GW <- as.factor(GWdependent$GW)
-
-colnames(IRWM)[1] <- "DACP_IDNumber"
-IRWM$DAC_Pilot <- as.factor(IRWM$DAC_Pilot)
-IRWM$TLB <- as.factor(IRWM$TLB)
-
-# Combine data sets -------------------------------------------------------
 
 # add in regions
 RegionsCut <- Regions %>% select(HR, DACP_Place_IDNumber, FIRST_HRNA)
@@ -117,9 +78,6 @@ Data <- left_join(Data, DemCut, by = "DACP_IDNumber")
 
 #test if I have only unique DACPs in IRWM dataset
 max(table(unique(IRWM$`DACPlace ID Number`))) # yes
-
-
-# Add new variables -------------------------------------------------------
 
 #Add any pilot variable
 IRWM$AnyPilot <- NA
@@ -156,9 +114,6 @@ Data3$GSA_ID <- as.factor(Data3$GSA_ID)
 Data4 <- left_join(Data3, NDACs, by = "GSA_ID")
 
 Data4$ACS_whitenotHOL_epercent <- as.numeric(Data4$ACS_whitenotHOL_epercent)
-
-
-# subset data to only what will be used for model -------------------------
 
 
 # Logits ------------------------------------------------------------------
